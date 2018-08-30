@@ -11,7 +11,7 @@ def index():
         <h2>Verkefni 1 a og b</h2>        
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/biography">Biography</a><
+        <a href="/biography">Biography</a>
         <a href="/pitures">Pitures</a>
         <h3>Þetta hérna fyrir neðan er a hluti</h1>
         <a href="/hello">Hello</a>
@@ -26,7 +26,7 @@ def about():
         <h2>Verkefni 1 a og b</h2>        
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/biography">Biography</a><
+        <a href="/biography">Biography</a>
         <a href="/pitures">Pitures</a>
         <a href="/hello">Hello</a>
         
@@ -57,7 +57,7 @@ def about():
        <h2>Verkefni 1 a og b</h2>        
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/biography">Biography</a><
+        <a href="/biography">Biography</a>
         <a href="/pitures">Pitures</a>
         <a href="/hello">Hello</a>
         
@@ -71,7 +71,7 @@ def hello():
         <h2>Verkefni 1 a og b</h2>        
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/biography">Biography</a><
+        <a href="/biography">Biography</a>
         <a href="/pitures">Pitures</a>
         <a href="/hello">Hello</a>
         
