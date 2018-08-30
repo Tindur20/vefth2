@@ -9,12 +9,12 @@ bottle.debug(True)
 def index():
        return """
         <h2>Verkefni 1 a og b</h2>        
-        <p><a href="http://localhost:8800/">Home</a></p>
-        <p><a href="http://localhost:8800/about">About</a></p>
-        <p><a href="http://localhost:8800/biography">Biography</a></p>
-        <p><a href="http://localhost:8800/pitures">Pitures</a></p>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/biography">Biography</a><
+        <a href="/pitures">Pitures</a>
         <h3>Þetta hérna fyrir neðan er a hluti</h1>
-        <p><a href="http://localhost:8800/hello">Hello</a></p>
+        <a href="/hello">Hello</a>
         
         <h3>Þetta er Home Síðan</h3>    
        
@@ -24,11 +24,11 @@ def index():
 def about():
       return """
         <h2>Verkefni 1 a og b</h2>        
-        <p><a href="http://localhost:8800/">Home</a></p>
-        <p><a href="http://localhost:8800/about">About</a></p>
-        <p><a href="http://localhost:8800/biography">Biography</a></p>
-        <p><a href="http://localhost:8800/pitures">Pitures</a></p>
-        <p><a href="http://localhost:8800/hello">Hello</a></p>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/biography">Biography</a><
+        <a href="/pitures">Pitures</a>
+        <a href="/hello">Hello</a>
         
         <h3>Þetta er About Síðan</h3>    
        
@@ -39,11 +39,11 @@ def about():
 def about():
           return """
         <h2>Verkefni 1 a og b</h2>        
-        <p><a href="http://localhost:8800/">Home</a></p>
-        <p><a href="http://localhost:8800/about">About</a></p>
-        <p><a href="http://localhost:8800/biography">Biography</a></p>
-        <p><a href="http://localhost:8800/pitures">Pitures</a></p>
-        <p><a href="http://localhost:8800/hello">Hello</a></p>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/biography">Biography</a><
+        <a href="/pitures">Pitures</a>
+        <a href="/hello">Hello</a>
         
         <h3>Þetta er Biography Síðan</h3>    
        
@@ -54,12 +54,12 @@ def about():
 @route('/pitures')
 def about():
       return """
-        <h2>Verkefni 1 a og b</h2>        
-        <p><a href="http://localhost:8800/">Home</a></p>
-        <p><a href="http://localhost:8800/about">About</a></p>
-        <p><a href="http://localhost:8800/biography">Biography</a></p>
-        <p><a href="http://localhost:8800/pitures">Pitures</a></p>
-        <p><a href="http://localhost:8800/hello">Hello</a></p>
+       <h2>Verkefni 1 a og b</h2>        
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/biography">Biography</a><
+        <a href="/pitures">Pitures</a>
+        <a href="/hello">Hello</a>
         
         <h3>Þetta er Pitures Síðan</h3>    
        
@@ -69,11 +69,11 @@ def about():
 def hello():
         return """
         <h2>Verkefni 1 a og b</h2>        
-        <p><a href="http://localhost:8800/">Home</a></p>
-        <p><a href="http://localhost:8800/about">About</a></p>
-        <p><a href="http://localhost:8800/biography">Biography</a></p>
-        <p><a href="http://localhost:8800/pitures">Pitures</a></p>
-        <p><a href="http://localhost:8800/hello">Hello</a></p>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/biography">Biography</a><
+        <a href="/pitures">Pitures</a>
+        <a href="/hello">Hello</a>
         
         <h3>Halló Heimur</h3>    
        
